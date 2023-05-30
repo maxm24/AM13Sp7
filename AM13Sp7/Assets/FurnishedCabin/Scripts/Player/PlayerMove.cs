@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private string horizontalInputName = "Horizontal";
     [SerializeField] private string verticalInputName = "Vertical";
 
-    [SerializeField] private float movementSpeed = 4f;
+    [SerializeField] private float movementSpeed = 5f;
 
     private CharacterController charController;
 
