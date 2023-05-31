@@ -8400,7 +8400,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
+  m_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
   m_Intensity: 10
   m_Range: 10
   m_SpotAngle: 1
@@ -8521,7 +8521,7 @@ PrefabInstance:
     - target: {fileID: 485600107317836383, guid: a5d3d870ad90d6644bccf6fbbfbe3d64,
         type: 3}
       propertyPath: movementSpeed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d3d870ad90d6644bccf6fbbfbe3d64, type: 3}
