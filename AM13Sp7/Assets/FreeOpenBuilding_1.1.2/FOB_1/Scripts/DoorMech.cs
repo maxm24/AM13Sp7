@@ -14,7 +14,7 @@ public class DoorMech : MonoBehaviour
 
 	void Start()
 	{
-		doorBool = true;
+		doorBool = false;
 	}
 		
 	void OnTriggerStay(Collider col)
@@ -23,6 +23,8 @@ public class DoorMech : MonoBehaviour
 		{
 			if (!doorBool)
 				doorBool = true;
+			else
+				doorBool= false;
 			
 		}
 	}
